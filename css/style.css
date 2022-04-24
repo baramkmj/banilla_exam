@@ -1,0 +1,125 @@
+body {
+  background-color: black;
+}
+
+.bgImg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: fadeIn 0.5s linear;
+}
+
+#weather {
+  color: white;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+
+.icon,
+.temp {
+  display: inline-block;
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+.icon {
+  margin-right: 2px;
+}
+
+.city {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+#clockArea {
+  margin-top: 7rem;
+  text-align: center;
+  display: block;
+}
+
+.clock {
+  color: white;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+#nameArea,
+#todoArea {
+  color: white;
+  text-align: center;
+  display: block;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.loginInput,
+.todoInput {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  box-sizing: border-box;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+}
+
+.loginInput {
+  width: 25%;
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+.todoInput {
+  width: 35%;
+  font-size: 1.5rem;
+}
+
+.loginInput:focus,
+.todoInput:focus {
+  outline: none;
+}
+
+input::placeholder {
+  color: rgb(221, 221, 221);
+  font-style: italic;
+}
+
+input:focus::-webkit-input-placeholder {
+  color: rgb(204, 226, 226);
+  text-align: center;
+}
+
+#todoArea {
+  text-align: center;
+  display: block;
+}
+
+#todoList {
+  /* width: 50%; */
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  list-style: none;
+}
+
+.todoOption {
+  margin-top: 0.7rem;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 1.2rem;
+  margin-left: 0.5rem;
+}
+
+.hidden {
+  display: none;
+}
